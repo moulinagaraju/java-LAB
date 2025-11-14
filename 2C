@@ -1,0 +1,18 @@
+class StringBufferDemo {
+    public static void main(String args[]) {
+
+        // Example 1: delete characters from index 0 to 6
+        StringBuffer sb1 = new StringBuffer("Hello world");
+        sb1.delete(0, 6);
+        System.out.println(sb1);
+
+        // Example 2: simple printing
+        StringBuffer sb2 = new StringBuffer("some content");
+        System.out.println(sb2);
+
+        // Example 3: delete a single character at index 1
+        StringBuffer sb3 = new StringBuffer("Helloworld");
+        sb3.deleteCharAt(1);
+        System.out.println(sb3);
+    }
+}
